@@ -1,0 +1,454 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>North & Mason | Tienda de Ropa Premium</title>
+    
+    <!-- Meta Tags SEO -->
+    <meta name="description" content="North & Mason - Tienda exclusiva en Uruguay. Camperas Puffer Santa Barbara a $U 3.500 y una selección exclusiva de championes de marca a $U 1.900. Envíos a todo el país.">
+    <meta name="keywords" content="North and Mason, tienda de ropa, camperas, camperas uruguay, santa barbara, championes, calzado, adidas samba, air force 1, jordan, montevideo">
+    <meta name="author" content="North & Mason">
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://northandmason.uy/">
+    <meta property="og:title" content="North & Mason | Tienda de Ropa Premium">
+    <meta property="og:description" content="Camperas Puffer Santa Barbara a $U 3.500 y la mejor selección de championes urbanos a $U 1.900. Envíos rápidos en Montevideo y todo el Uruguay.">
+    <meta property="og:image" content="assets/jacket_black_flat.jpg">
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:title" content="North & Mason | Tienda de Ropa Premium">
+    <meta property="twitter:description" content="Camperas Puffer Santa Barbara a $U 3.500 y championes urbanos a $U 1.900. Calidad y estilo nórdico minimalista.">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>N</text></svg>">
+    
+    <!-- CSS Stylesheet -->
+    <link rel="stylesheet" href="styles.css">
+    
+    <!-- Structured Data JSON-LD for Products -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org/",
+      "@type": "Store",
+      "name": "North & Mason",
+      "image": "assets/jacket_black_flat.jpg",
+      "description": "Tienda premium de ropa y calzado en Uruguay. Camperas a $U 3.500 y championes a $U 1.900.",
+      "telephone": "+59899000000",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Av. 18 de Julio",
+        "addressLocality": "Montevideo",
+        "addressCountry": "UY"
+      },
+      "priceRange": "$$"
+    }
+    </script>
+</head>
+<body>
+
+    <!-- Header Navigation -->
+    <header>
+        <div class="nav-container">
+            <a href="#" class="logo" id="brand-logo">North & Mason</a>
+            
+            <nav class="nav-links" id="main-nav">
+                <a href="#" class="nav-link active" data-nav="all">Inicio</a>
+                <a href="#catalog" class="nav-link" data-nav="camperas">Camperas</a>
+                <a href="#catalog" class="nav-link" data-nav="calzado">Championes</a>
+            </nav>
+            
+            <div class="nav-actions">
+                <!-- Theme Toggle Button -->
+                <button class="nav-icon-btn" id="theme-toggle" aria-label="Cambiar tema de color" id="btn-theme">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.5">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M12 3a6 6 0 0 0 9 9 9 9 0 1 1-9-9Z" />
+                    </svg>
+                </button>
+                
+                <!-- Cart Button -->
+                <button class="nav-icon-btn" id="cart-btn" aria-label="Ver carrito de compras" id="btn-cart">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M15.75 10.5V6a3.75 3.75 0 1 0-7.5 0v4.5m11.356-1.993 1.263 12c.07.665-.45 1.243-1.119 1.243H4.25a1.125 1.125 0 0 1-1.12-1.243l1.264-12A1.125 1.125 0 0 1 5.513 7.5h12.974c.576 0 1.059.435 1.119 1.007ZM8.625 10.5a.375.375 0 1 1-.75 0 .375.375 0 0 1 .75 0Zm7.5 0a.375.375 0 1 1-.75 0 .375.375 0 0 1 .75 0Z" />
+                    </svg>
+                    <span class="cart-count-badge" id="cart-badge" style="display: none;">0</span>
+                </button>
+                
+                <!-- Mobile Menu Button (Hamburger) -->
+                <button class="nav-icon-btn mobile-menu-btn" aria-label="Abrir menú" id="btn-mobile-menu">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 9h16.5m-16.5 5.625h16.5" />
+                    </svg>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Main Content Area -->
+    <main>
+        
+        <!-- Hero Banner Section -->
+        <section class="hero-section">
+            <div class="hero-overlay"></div>
+            <div class="container hero-grid">
+                <div class="hero-content">
+                    <span class="hero-tagline">Colección Invierno 2026</span>
+                    <h1 class="hero-title">North & Mason. <span>Estilo Atemporal.</span></h1>
+                    <p class="hero-description">Prendas esenciales de diseño minimalista adaptadas a tu día a día. Conseguí la auténtica campera térmica Santa Barbara a precio especial de lanzamiento, y completá tu outfit con los championes del momento.</p>
+                    <a href="#catalog" class="btn-primary" id="hero-cta">
+                        <span>Explorar Colección</span>
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" width="16" height="16">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19.5 8.25l-7.5 7.5-7.5-7.5" />
+                        </svg>
+                    </a>
+                </div>
+                <div class="hero-image-container">
+                    <div class="hero-image-wrapper">
+                        <img src="assets/jacket_black_hang.jpg" alt="Colección de Camperas Santa Barbara de North & Mason">
+                        <div class="hero-badge">
+                            <span class="hero-badge-price">$U 3.500</span>
+                            <span class="hero-badge-label">Santa Barbara</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Dynamic Catalog Section -->
+        <section id="catalog" class="catalog-section section-padding">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">Nuestra <span>Colección</span></h2>
+                    
+                    <!-- Category Filters -->
+                    <div class="filters-wrapper">
+                        <button class="filter-btn active" data-category="all" id="filter-all">Ver Todo</button>
+                        <button class="filter-btn" data-category="camperas" id="filter-jackets">Camperas</button>
+                        <button class="filter-btn" data-category="calzado" id="filter-shoes">Championes</button>
+                    </div>
+                </div>
+                
+                <!-- Catalog Grid -->
+                <div class="products-grid" id="products-grid">
+                    <!-- Cards populated dynamically by app.js -->
+                </div>
+            </div>
+        </section>
+
+        <!-- Shoe Info Banner Section -->
+        <section class="banner-section section-padding">
+            <div class="container banner-grid">
+                <div class="banner-image">
+                    <img src="assets/shoes_newbalance.jpg" alt="Colección de Championes Urbanos en North & Mason" loading="lazy">
+                </div>
+                <div class="banner-content">
+                    <span class="hero-tagline" style="margin-bottom: 1rem; display: block;">Calzado Urbano</span>
+                    <h2 class="banner-title">La mejor pisada, al mejor precio</h2>
+                    <p class="banner-desc">Desde los clásicos Adidas Samba hasta los atemporales Nike Air Force 1, pasando por la robustez de los Jordan 4. Toda nuestra línea de calzado urbano está disponible a un precio único de $U 1.900. No te quedes sin tu par favorito.</p>
+                    <a href="#catalog" class="btn-primary" id="btn-banner-catalog">
+                        <span>Ver todos los Championes</span>
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" width="16" height="16">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3" />
+                        </svg>
+                    </a>
+                </div>
+            </div>
+        </section>
+        
+        <!-- Brand Values / Features Grid -->
+        <section class="section-padding" style="background-color: var(--bg-primary);">
+            <div class="container" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 3rem; text-align: center;">
+                <div>
+                    <h3 style="font-size: 1.25rem; margin-bottom: 1rem; font-weight: 600;">Envíos a todo el País</h3>
+                    <p style="color: var(--text-secondary); font-size: 0.9rem;">Entregamos en Montevideo en menos de 24hs y enviamos a todo el interior de Uruguay por la agencia de tu preferencia.</p>
+                </div>
+                <div>
+                    <h3 style="font-size: 1.25rem; margin-bottom: 1rem; font-weight: 600;">Calidad Asegurada</h3>
+                    <p style="color: var(--text-secondary); font-size: 0.9rem;">Seleccionamos minuciosamente cada prenda y calzado para garantizar durabilidad, confort superior y el mejor estilo.</p>
+                </div>
+                <div>
+                    <h3 style="font-size: 1.25rem; margin-bottom: 1rem; font-weight: 600;">Compra Segura</h3>
+                    <p style="color: var(--text-secondary); font-size: 0.9rem;">Simulamos pagos integrados y seguros para que puedas procesar tus pedidos con total tranquilidad.</p>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Shopping Cart Drawer (Slides in from Right) -->
+    <div class="cart-drawer-overlay" id="cart-drawer-overlay">
+        <div class="cart-drawer" id="cart-drawer" role="dialog" aria-modal="true" aria-labelledby="cart-title">
+            <div class="cart-header">
+                <h3 class="cart-title" id="cart-title">Tu Carrito</h3>
+                <button class="cart-close-btn" id="cart-close" aria-label="Cerrar carrito">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12" />
+                    </svg>
+                </button>
+            </div>
+            
+            <div class="cart-items-container" id="cart-items">
+                <!-- Cart items list populated dynamically -->
+            </div>
+            
+            <div class="cart-footer">
+                <div class="cart-summary-line">
+                    <span>Subtotal</span>
+                    <span id="cart-subtotal">$U 0</span>
+                </div>
+                <div class="cart-summary-line">
+                    <span>Envío</span>
+                    <span style="color: var(--accent); font-weight: 500;">Gratis</span>
+                </div>
+                <div class="cart-summary-line total">
+                    <span>Total</span>
+                    <span id="cart-total">$U 0</span>
+                </div>
+                <button class="btn-checkout" id="checkout-btn">Proceder al Pago</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Product Detail Modal (Pop-up) -->
+    <div class="detail-modal-overlay" id="detail-modal-overlay">
+        <div class="detail-modal" id="detail-modal" role="dialog" aria-modal="true">
+            <button class="detail-modal-close-btn" id="detail-modal-close" aria-label="Cerrar modal">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
+                </svg>
+            </button>
+            
+            <div class="detail-modal-grid">
+                <div class="detail-modal-gallery">
+                    <img id="detail-image" src="" alt="">
+                    <div class="gallery-controls" id="gallery-controls">
+                        <!-- Dots for multi-image sliders -->
+                    </div>
+                </div>
+                
+                <div class="detail-modal-content">
+                    <span class="detail-modal-category" id="detail-category">Camperas</span>
+                    <h3 class="detail-modal-title" id="detail-title">Campera Puffer Santa Barbara</h3>
+                    <span class="detail-modal-price" id="detail-price">$U 3.500</span>
+                    <p class="detail-modal-desc" id="detail-desc">Descripción del producto...</p>
+                    
+                    <!-- Color Picker -->
+                    <div class="selector-group">
+                        <span class="selector-title" id="detail-colors-title">Seleccionar Color</span>
+                        <div class="color-options" id="detail-colors">
+                            <!-- Color Swatches populated dynamically -->
+                        </div>
+                    </div>
+                    
+                    <!-- Size Picker -->
+                    <div class="selector-group">
+                        <span class="selector-title">Seleccionar Talle</span>
+                        <div class="size-options" id="detail-sizes">
+                            <!-- Size Buttons populated dynamically -->
+                        </div>
+                    </div>
+                    
+                    <button class="btn-add-to-cart-large" id="add-to-cart-btn">Agregar al Carrito</button>
+                    <a href="#" target="_blank" class="btn-whatsapp-large" id="whatsapp-product-btn">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
+                            <path d="M13.601 2.326A7.85 7.85 0 0 0 8 0a7.86 7.86 0 0 0-7.863 7.863c0 1.5.39 2.964 1.135 4.298L0 16l4.026-.957a7.86 7.86 0 0 0 3.738.938h.002c.001 0 .002 0 .003 0A7.86 7.86 0 0 0 16 7.863a7.83 7.83 0 0 0-2.399-5.537zM8 14.331c-1.411 0-2.793-.38-4.004-1.099l-.287-.17-2.38.567.584-2.31-.188-.3A6.52 6.52 0 0 1 1.742 7.86a6.52 6.52 0 0 1 6.522-6.523 6.52 6.52 0 0 1 6.522 6.522A6.52 6.52 0 0 1 8 14.331"/>
+                        </svg>
+                        <span>Más modelos en WhatsApp</span>
+                    </a>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Checkout Modal Flow -->
+    <div class="checkout-modal-overlay" id="checkout-modal-overlay">
+        <div class="checkout-modal" id="checkout-modal" role="dialog" aria-modal="true">
+            <button class="detail-modal-close-btn" id="checkout-modal-close" aria-label="Cerrar checkout">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
+                </svg>
+            </button>
+            
+            <div class="checkout-modal-grid">
+                <!-- Left: Form Steps -->
+                <div class="checkout-form-container">
+                    <h3 class="checkout-modal-title">Finalizar Compra</h3>
+                    
+                    <form id="checkout-form" onsubmit="event.preventDefault();">
+                        <!-- Step 1: Shipping Details -->
+                        <div class="checkout-step active" id="step-shipping">
+                            <div class="form-group">
+                                <label class="form-label" for="checkout-name">Nombre Completo</label>
+                                <input type="text" id="checkout-name" class="form-input" required placeholder="Juan Pérez">
+                            </div>
+                            
+                            <div class="form-group">
+                                <label class="form-label" for="checkout-phone">Teléfono / Celular</label>
+                                <input type="tel" id="checkout-phone" class="form-input" required placeholder="099 123 456">
+                            </div>
+                            
+                            <div class="form-group">
+                                <label class="form-label" for="checkout-address">Dirección de Entrega</label>
+                                <input type="text" id="checkout-address" class="form-input" required placeholder="Av. 18 de Julio 1234, Apto. 402">
+                            </div>
+                            
+                            <div class="form-row">
+                                <div class="form-group">
+                                    <label class="form-label" for="checkout-city">Departamento</label>
+                                    <input type="text" id="checkout-city" class="form-input" required placeholder="Montevideo">
+                                </div>
+                                <div class="form-group">
+                                    <label class="form-label" for="checkout-postal">Código Postal (Opcional)</label>
+                                    <input type="text" id="checkout-postal" class="form-input" placeholder="11100">
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <!-- Step 2: Payment Details -->
+                        <div class="checkout-step" id="step-payment">
+                            <div class="checkout-methods">
+                                <label class="checkout-method-card selected">
+                                    <input type="radio" name="payment-method" value="transfer" checked>
+                                    <div>
+                                        <span class="checkout-method-title">Transferencia Bancaria</span>
+                                        <p class="checkout-method-desc">Banco BROU o Santander. Gratis y rápido.</p>
+                                    </div>
+                                </label>
+                                
+                                <label class="checkout-method-card">
+                                    <input type="radio" name="payment-method" value="card">
+                                    <div>
+                                        <span class="checkout-method-title">Tarjeta de Crédito / Débito</span>
+                                        <p class="checkout-method-desc">Simulador Visa, Mastercard o OCA.</p>
+                                    </div>
+                                </label>
+                            </div>
+                            
+                            <!-- Card fields wrapper, shown conditionally if we wanted, but kept simple for simulation -->
+                            <div class="form-group">
+                                <label class="form-label" for="checkout-note">Notas adicionales (Opcional)</label>
+                                <input type="text" id="checkout-note" class="form-input" placeholder="Ej: tocar timbre 4B, dejar en portería">
+                            </div>
+                        </div>
+                        
+                        <!-- Step 3: Success Screen -->
+                        <div class="checkout-step" id="step-success">
+                            <div class="success-container">
+                                <div class="success-icon flex-center">
+                                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                                        <path stroke-linecap="round" stroke-linejoin="round" d="M4.5 12.75l6 6 9-13.5" />
+                                    </svg>
+                                </div>
+                                <h4 class="success-title">¡Gracias por tu compra!</h4>
+                                <p class="success-text">Tu pedido ha sido recibido y ya se encuentra en preparación.</p>
+                                
+                                <div class="success-details">
+                                    <div class="success-details-line">
+                                        <strong>Código de Pedido:</strong>
+                                        <span id="success-tracking">NM-123456</span>
+                                    </div>
+                                    <div class="success-details-line">
+                                        <strong>Estimación de Entrega:</strong>
+                                        <span id="success-delivery">En 24-48 horas</span>
+                                    </div>
+                                </div>
+                                
+                                <button type="button" class="btn-success-close" id="btn-success-close">Volver a la Tienda</button>
+                            </div>
+                        </div>
+                        
+                        <!-- Form Actions Navigation -->
+                        <div class="checkout-actions">
+                            <button type="button" class="btn-form-nav back" id="checkout-back-btn" style="display: none;">Atrás</button>
+                            <button type="button" class="btn-form-nav next" id="checkout-next-btn">Continuar al Pago</button>
+                        </div>
+                    </form>
+                </div>
+                
+                <!-- Right: Summary Sidebar -->
+                <div class="checkout-summary-container">
+                    <h3 class="checkout-summary-title">Resumen</h3>
+                    <div class="checkout-summary-items" id="checkout-summary-items">
+                        <!-- Summary Rows -->
+                    </div>
+                    
+                    <div class="checkout-summary-totals">
+                        <div class="cart-summary-line">
+                            <span>Subtotal</span>
+                            <span id="checkout-subtotal">$U 0</span>
+                        </div>
+                        <div class="cart-summary-line">
+                            <span>Envío</span>
+                            <span style="color: var(--accent); font-weight: 500;">Gratis</span>
+                        </div>
+                        <div class="cart-summary-line total">
+                            <span>Total</span>
+                            <span id="checkout-total">$U 0</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer Section -->
+    <footer>
+        <div class="container footer-grid">
+            <div class="footer-col footer-brand">
+                <a href="#" class="footer-logo">North & Mason</a>
+                <p class="footer-brand-desc">Indumentaria y calzado de diseño atemporal, combinando la estética nórdica con las exigencias del clima contemporáneo.</p>
+                <div class="footer-socials">
+                    <a href="#" class="footer-social-link" aria-label="North & Mason Instagram">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-instagram" viewBox="0 0 16 16">
+                          <path d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.9 3.9 0 0 0-1.417.923A3.9 3.9 0 0 0 .42 2.76c-.198.508-.333 1.09-.372 1.942C.008 5.555 0 5.827 0 8.001c0 2.174.008 2.447.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.447-.008 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.9 3.9 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.008-2.447-.048-3.298c-.04-.851-.175-1.433-.372-1.941a3.9 3.9 0 0 0-.923-1.417A3.9 3.9 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599.28.28.453.546.598.92.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.5 2.5 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.5 2.5 0 0 1-.92-.598 2.5 2.5 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233s.008-2.388.046-3.231c.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92m-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217m0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334"/>
+                        </svg>
+                    </a>
+                    <a href="#" class="footer-social-link" aria-label="North & Mason Facebook">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-facebook" viewBox="0 0 16 16">
+                          <path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951"/>
+                        </svg>
+                    </a>
+                </div>
+            </div>
+            
+            <div class="footer-col">
+                <h4 class="footer-col-title">Colección</h4>
+                <ul class="footer-links">
+                    <li><a href="#catalog" class="footer-link" onclick="document.getElementById('filter-all').click();">Ver Todo</a></li>
+                    <li><a href="#catalog" class="footer-link" onclick="document.getElementById('filter-jackets').click();">Camperas</a></li>
+                    <li><a href="#catalog" class="footer-link" onclick="document.getElementById('filter-shoes').click();">Championes</a></li>
+                </ul>
+            </div>
+            
+            <div class="footer-col">
+                <h4 class="footer-col-title">Servicios</h4>
+                <ul class="footer-links">
+                    <li><a href="#" class="footer-link">Envíos y Entregas</a></li>
+                    <li><a href="#" class="footer-link">Cambios y Devoluciones</a></li>
+                    <li><a href="#" class="footer-link">Términos de Servicio</a></li>
+                </ul>
+            </div>
+            
+            <div class="footer-col">
+                <h4 class="footer-col-title">Contacto</h4>
+                <ul class="footer-links">
+                    <li class="footer-link">Montevideo, Uruguay</li>
+                    <li><a href="mailto:info@northandmason.uy" class="footer-link">info@northandmason.uy</a></li>
+                    <li><a href="tel:+59899000000" class="footer-link">+598 99 000 000</a></li>
+                </ul>
+            </div>
+        </div>
+        
+        <div class="container footer-bottom">
+            <span>&copy; 2026 North & Mason. Todos los derechos reservados.</span>
+            <span>Diseño Minimalista Premium</span>
+        </div>
+    </footer>
+
+    <!-- App Logic Script -->
+    <script src="app.js"></script>
+</body>
+</html>
